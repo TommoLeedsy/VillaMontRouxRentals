@@ -10,7 +10,7 @@
 @media all and (max-width:720px){html {font-size: 17px;} ul {padding: 18px}}
 @media all and (max-width:680px){html {font-size: 16px;} ul {padding: 19px}}
 @media all and (max-width:640px){html {font-size: 15px;} ul {padding: 20px}}
-#container {background-color: #d5e4f0; padding: 0px; width: 984px; margin-right: auto; margin-left: auto; overflow: hidden;}
+#container {background-color: #d5e4f0; padding: 0px; width: 800px; margin-right: auto; margin-left: auto; overflow: hidden;}
 body {font-family: Neutraface2; width: 100%; margin: 0 auto; padding: 0 auto; font-size: 0.9em;}
 header {height: 52px; background-color: #d5e4f0; margin: 0 auto; padding: 0 auto;}
 li {color: white; float: left; width: 20%; text-align: center;}

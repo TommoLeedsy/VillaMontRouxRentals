@@ -12,7 +12,7 @@
 @media all and (max-width:640px){html {font-size: 15px;} ul {padding: 20px}}
 body {font-family: Neutraface2; width: 100%; margin: 0 auto; padding: 0 auto; font-size: 0.9em;}
 header {height: 52px; background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50); margin: 0 auto; padding: 0 auto;}
-li {color: white; float: left; width: 33.3333%; text-align: center;}
+li {color: black; float: left; width: 33.3333%; text-align: center;}
 p {margin-left: 12%; margin-right: 12%;}
 footer {position:bottom; float:bottom;}
 img {margin-left: 12%;}

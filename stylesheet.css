@@ -10,7 +10,6 @@
 @media all and (max-width:720px){html {font-size: 17px;} ul {padding: 18px}}
 @media all and (max-width:680px){html {font-size: 16px;} ul {padding: 19px}}
 @media all and (max-width:640px){html {font-size: 15px;} ul {padding: 20px}}
-<iframe style="float:center">
 body {font-family: Neutraface2; width: 100%; margin: 0 auto; padding: 0 auto; font-size: 0.9em;}
 header {height: 52px; background-color: #38485f; margin: 0 auto; padding: 0 auto;}
 li {color: white; float: left; width: 20%; text-align: center;}
@@ -37,3 +36,4 @@ ul a:hover {
     font-weight: 300;
     border: none;
 }
+iframe {float: center}

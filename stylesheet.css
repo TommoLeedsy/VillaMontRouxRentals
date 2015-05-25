@@ -59,7 +59,7 @@ margin: 0px auto 40px;
 	text-align:left;
 	font-size: 10px;
 	text-shadow: none;
-    
+
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box; 
@@ -83,7 +83,6 @@ margin: 0px auto 40px;
 	line-height:0;
 	overflow: hidden;
 	float:left;
-    
 	padding:0 0 0 0 !important;
 	margin:0 0 0 0 !important;
 }
@@ -191,11 +190,13 @@ margin: 0px auto 40px;
 #wowslider-container1.ws_video_playing:hover .ws_bullets {
 	display: block;
 }
+
 #wowslider-container1.ws_video_playing_ie .ws_bullets,
 #wowslider-container1.ws_video_playing_ie a.ws_next,
 #wowslider-container1.ws_video_playing_ie a.ws_prev {
 	display: block;
 }
+
 
 #wowslider-container1 .ws_video_btn {
 	position: absolute;

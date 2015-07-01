@@ -1,7 +1,7 @@
 @font-face {font-family: Neutraface2; src: url('Neutraface2Display-Light.otf');}
 @font-face {font-family: Neutraface2; font-weight: 600; src: url('Neutraface2Display-Medium.otf');}
 @media all {html {font-size: 24px;} ul {padding: 12px}}
-@media all and (max-width:1440px){html {font-size: 30px;} ul {padding: 12px}}
+@media all and (max-width:1440px){html {font-size: 28px;} ul {padding: 12px}}
 @media all and (max-width:960px){html {font-size: 25px;} ul {padding: 12px}}
 @media all and (max-width:960px){html {font-size: 23px;} ul {padding: 12px}}
 @media all and (max-width:920px){html {font-size: 22px;} ul {padding: 12px}}

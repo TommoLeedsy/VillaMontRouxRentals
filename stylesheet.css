@@ -11,7 +11,7 @@
 @media all and (max-width:760px){html {font-size: 18px;} ul {padding: 17px}}
 @media all and (max-width:720px){html {font-size: 17px;} ul {padding: 18px}}
 @media all and (max-width:680px){html {font-size: 16px;} ul {padding: 19px}}
-@media all and (max-width:640px){html {font-size: 12px;} ul {padding: 20px}}
+@media all and (max-width:640px){html {font-size: 10px;} ul {padding: 20px}}
 body {font-family: Neutraface2; width: auto; padding: 0 auto; font-size: 0.9em; background: #d5e4f0; height: auto; margin: 70px auto;}
 .boxed {margin-left: 7.5%; margin-right: 7.5%; width: auto; height: 2000px; background: #FFFFFF;}
 header {height: auto; background-color: #819056; width: auto; margin:0px auto; padding: auto; width:100%; position:fixed; top:0px;}

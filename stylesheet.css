@@ -11,12 +11,12 @@
 @media all and (max-width:760px){html {font-size: 18px;} ul {padding: 17px}}
 @media all and (max-width:720px){html {font-size: 17px;} ul {padding: 18px}}
 @media all and (max-width:680px){html {font-size: 16px;} ul {padding: 19px}}
-@media all and (max-width:640px){html {font-size: 15px;} ul {padding: 20px}}
+@media all and (max-width:640px){html {font-size: 20px;} ul {padding: 20px}}
 body {font-family: Neutraface2; width: auto; padding: 0 auto; font-size: 0.9em; background: #d5e4f0; height: auto; margin: auto; margin-top: 90px}
-.boxed {margin: 10%; margin-top: 0%; margin-bottom: 0%; width: auto; height: 2000px; background: #FFFFFF;}
-header {text-align: center; height: 90px; background-color: #819056; width: auto; margin:0px auto; padding: auto; width:100%; position: fixed; top:0px;}
+.boxed {margin: 10%; margin-top: 110px; margin-bottom: 0%; width: auto; height: 2000px; background: #FFFFFF;}
+header {text-align: center; height: 100px; background-color: #819056; width: auto; margin:0px auto; padding: auto; width:100%; position: fixed; top:0px;}
 footer {background:#38485f; width:100%; height:26px; position:absolute; bottom:0; left:0;}
-.up {font-family:Neutraface2; margin-left: 12%; font-weight: 600; width: 50%; border-bottom: 1px solid black; font-size: 1em;}
+.head {font-family:Neutraface2; margin-left: 12%; font-weight: 600; width: auto; border-bottom: 1px solid black; font-size: 1em;}
 li {color: white; float: left; width: 20%; text-align: center;}
 p {margin-left: 12%; margin-right: 12%;}
 img {margin-left: 12%;}

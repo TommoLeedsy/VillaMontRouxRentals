@@ -11,18 +11,14 @@ body {
 }
 
 .menu {
-  background-color: white;
-  left: -300px;
-  height: 100%;
-  position: fixed;
-  width: 300px;
-  border-right: 1px solid black;
-  z-index: 100;
-}
-
-.main-page {
-  background-color: white;
-  height: 100%;
+    font-family: "Neutraface2";
+    background-color: white;
+    left: -300px;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+    border-right: 1px solid black;
+    z-index: 100;
 }
 
 .menu a {
@@ -73,12 +69,12 @@ a:active {
 
 .icon-close img {
     height: 13px;
-    width: 12px;
+    width: 13px;
     vertical-align: middle;
-    padding-bottom: 1px;
+    padding-bottom: 3px;
 }
-
 .icon-menu {
+    font-family: "Neutraface2";
     color: black;
     cursor: pointer;
     font-size: 16px;
@@ -108,6 +104,7 @@ p{
     margin-right: 2.5%;
 }
 .main {
+    font-family: "Neutraface2";
     margin-left: 12.5%;
     margin-right: 12.5%;
 }
@@ -152,10 +149,6 @@ main img {
 }
 .icon-close {
     font-size: 20px;
-}
-.icon-close img {
-    width: 15;
-    height: 15px;
 }
 .main h1 {
     font-size: 40px;

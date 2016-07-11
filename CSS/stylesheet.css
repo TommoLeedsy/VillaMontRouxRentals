@@ -131,7 +131,9 @@ p{
     height: 50px;
     margin-top: 5px;
 }
-main .map {
+.Map iframe{
+    width: 95%;
+    height: 50%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }

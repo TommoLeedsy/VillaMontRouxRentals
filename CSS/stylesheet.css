@@ -31,10 +31,6 @@ body {
     color: purple;
 }
 
-.main-page a:hover {
-    color: purple;
-}
-
 a:active {
     color: purple;
 }
@@ -98,27 +94,11 @@ p{
     margin-right: 12.5%;
 }
 
-.X {
-    font-weight: 800;
-}
 .Calendar iframe{
     width: 95%;
     height: 397.5px;
     margin-left: 2.5%;
     margin-right: 2.5%;
-}
-.Spotify{
-    width: 25%;
-}
-.Link-img{
-    height: 30px;
-    Padding: 5px;
-}
-.Link-Images img {
-    display:block; 
-    margin: Left;
-    height: 50px;
-    margin-top: 5px;
 }
 .Map iframe{
     width: 95%;
@@ -126,21 +106,17 @@ p{
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
-main img {
-    margin-left: 2.5%;
-    margin-right: 2.5%;    
-}
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 
-.icon-menu {
-    font-size: 20px;
-}
 .menu a {
-    font-size: 20px;
-}
-.icon-close {
     font-size: 20px;
 }
 .main h1 {
     font-size: 40px;
+}
+.menu-open {
+    font-size: 20px;
+}
+    .menu-close {
+    font-size: 20px;
 }

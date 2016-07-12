@@ -107,16 +107,16 @@ p{
     margin-right: 2.5%;
 }
 @media screen and (max-device-width: 480px) and (orientation: portrait){
-
-.menu a {
-    font-size: 20px;
-}
-.main h1 {
-    font-size: 40px;
-}
-.menu-open {
-    font-size: 20px;
-}
-    .menu-close {
-    font-size: 20px;
+    .menu a {
+        font-size: 20px;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+    .menu-open {
+        font-size: 20px;
+    }
+        .menu-close {
+        font-size: 20px;
+    }
 }

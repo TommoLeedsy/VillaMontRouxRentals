@@ -27,11 +27,6 @@ body {
     text-decoration: none;
 }
 
-a {
-    color: darkblue;
-    text-decoration: none;
-}
-
 .menu a:hover {
     color: purple;
 }
@@ -56,7 +51,7 @@ a:active {
     margin-left: 15%;
 }
 
-.icon-close {
+.menu-close {
     color: black;
     cursor: pointer;
     font-size: 16px;
@@ -67,13 +62,7 @@ a:active {
     text-transform: uppercase;
 }
 
-.icon-close img {
-    height: 13px;
-    width: 13px;
-    vertical-align: middle;
-    padding-bottom: 3px;
-}
-.icon-menu {
+.menu-open {
     font-family: "Neutraface2";
     color: black;
     cursor: pointer;

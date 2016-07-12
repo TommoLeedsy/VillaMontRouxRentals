@@ -1,0 +1,10 @@
+//Caching schema
+<FilesMatch "\.(css|html|js|png)$">
+Header set Cache-Control "private, proxy-revalidate, max-age=482112000"
+</FilesMatch>
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

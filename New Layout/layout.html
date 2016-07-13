@@ -44,11 +44,42 @@
         <div class="main">
         </div>
         <script src="js/jquery.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
         <script>
             $(document).ready(function(){
-                $(".owl-carousel").owlCarousel();
+                $(".owl-carousel").owlCarousel({
+                })
             });
+            var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop:true,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },            
+                960:{
+                    items:5
+                },
+                1200:{
+                    items:6
+                }
+            }
+        });
+        owl.on('mousewheel', '.owl-stage', function (e) {
+            if (e.deltaY>0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
         </script>
     </Body>
 </html>

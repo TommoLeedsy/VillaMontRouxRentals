@@ -2,10 +2,12 @@
     <Head>
         <meta name="title" content="VillaMontRouxRentals"/>
         <title>Villa Mont Roux Rentals | The Villa</title>
-        <link href='stylesheet.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">   
     </Head>
     <Body>
-        <header>
+        <div class="nav-bar">
             <nav>
                 <li>
                     <a href="index.html">The Villa</a>
@@ -23,10 +25,30 @@
                     <a href="booking.html">Booking and Contacting Us</a>
                 </li>
             </nav>
-        </header>
-        <div id="Carousel">
         </div>
-        <div class="Main">
+        <div class="owl-carousel owl-theme">
+            <img src="img/1.jpg" alt="1" >
+            <img src="img/2.jpg" alt="2">
+            <img src="img/3.jpg" alt="3">
+            <img src="img/4.jpg" alt="4">
+            <img src="img/5.jpg" alt="5">
+            <img src="img/6.jpg" alt="6">
+            <img src="img/7.jpg" alt="7">
+            <img src="img/8.jpg" alt="8">
+            <img src="img/9.jpg" alt="9">
+            <img src="img/10.jpg" alt="10">
+            <img src="img/11.jpg" alt="11">
+            <img src="img/12.jpg" alt="12">
+            <img src="img/13.jpg" alt="13">
         </div>
+        <div class="main">
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel();
+            });
+        </script>
     </Body>
 </html>

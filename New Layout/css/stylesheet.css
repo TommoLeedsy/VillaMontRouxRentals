@@ -1,0 +1,26 @@
+Body {
+    margin: 0;
+}
+.nav-bar {
+    height: 75px;
+    width: 100%;
+    background-color: #819056;
+}
+.nav-bar nav {
+    height: 100%;
+    margin-left: 52.5%;
+    margin-right: 2.5%;
+}
+.nav-bar nav li {
+    display: inline;
+    float: right;
+    width: 20%
+}
+.nav-bar nav li a {
+    display: block;
+    color: #24344b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}

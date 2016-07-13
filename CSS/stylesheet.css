@@ -106,6 +106,9 @@ p{
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
+#google_translate_element{
+ margin-left: 2.5%   
+}
 @media screen and (max-device-width: 480px) and (orientation: portrait){
     .menu a {
         font-size: 20px;

@@ -3269,5 +3269,37 @@
 		$.support.transform = new String(prefixed('transform'));
 		$.support.transform3d = tests.csstransforms3d();
 	}
+    
+    var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop:true,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            autoWidth: true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },            
+                960:{
+                    items:4
+                },
+                1200:{
+                    items:4
+                }
+            }
+        });
+        owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
 
 })(window.Zepto || window.jQuery, window, document);

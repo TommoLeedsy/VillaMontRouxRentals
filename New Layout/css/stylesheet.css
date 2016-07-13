@@ -1,28 +1,38 @@
-Body {
+body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .nav-bar {
-    height: 75px;
     width: 100%;
-    background-color: #819056;
+    background-color: #24344b;
+    overflow: hidden;
 }
 .nav-bar nav {
-    height: 100%;
-    margin-left: 52.5%;
-    margin-right: 2.5%;
+    float: right;
+}
+.nav-bar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .nav-bar nav li {
-    display: inline;
     float: right;
-    width: 20%
 }
 .nav-bar nav li a {
     display: block;
-    color: #24344b;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.owl-carousel {
+
+.owl-carousel .owl-item img {    
     height: 400px;
+    object-fit: cover;
+}
+.main{
+    display: block;
+    margin: auto;
+    max-width: 1250;
+    width: 95%
 }

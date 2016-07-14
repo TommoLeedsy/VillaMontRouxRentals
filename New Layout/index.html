@@ -30,7 +30,7 @@
                 </ul>    
             </nav>
         </div>
-        <div class="owl-carousel owl-theme">
+        <div id="HomeGallery" class="owl-carousel owl-theme">
             <img src="img/1.jpg" alt="1" >
             <img src="img/2.jpg" alt="2">
             <img src="img/3.jpg" alt="3">
@@ -52,5 +52,30 @@
         <script src="js/plugins.js"></script>
         <script src="js/owl.carousel.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            $('#HomeGallery').owlCarousel({
+                loop:true,
+                nav:false,
+                dots: false,
+                autoplay:true,
+                autoplayTimeout:1000,
+                autoplayHoverPause:true,
+                autoWidth: true,
+                responsive:{
+                    0:{
+                        items:2
+                    },
+                    600:{
+                        items:3
+                    },            
+                    960:{
+                        items:4
+                    },
+                    1200:{
+                        items:4
+                    }
+                }
+            });
+        </script>
     </body>
 </html>

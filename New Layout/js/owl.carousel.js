@@ -2820,7 +2820,6 @@
 		slideBy: 1,
 		dotClass: 'owl-dot',
 		dotsClass: 'owl-dots',
-		dots: false,
 		dotsEach: false,
 		dotsData: false,
 		dotsSpeed: false,

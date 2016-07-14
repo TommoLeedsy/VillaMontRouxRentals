@@ -94,13 +94,13 @@ p{
     margin-right: 12.5%;
 }
 
-.Calendar iframe{
+.Calendar {
     width: 95%;
     height: 397.5px;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
-.Map iframe{
+.Map {
     width: 95%;
     height: 50%;
     margin-left: 2.5%;

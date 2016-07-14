@@ -7,8 +7,14 @@ body {
     background-color: #24344b;
     overflow: hidden;
 }
-.nav-bar nav {
-    float: right;
+.nav-bar h1 a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar h1 {
+    margin-left: 2.5%;
+    font-size: 35px;
+    color: white;
 }
 .nav-bar nav ul {
     list-style-type: none;
@@ -30,9 +36,8 @@ body {
     height: 400px;
     object-fit: cover;
 }
-.main{
-    display: block;
-    margin: auto;
+.container {
+    margin: 0 auto;
     max-width: 1250;
     width: 95%
 }

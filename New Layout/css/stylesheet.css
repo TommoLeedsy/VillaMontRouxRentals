@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     position: fixed;
     top: 0;
+    z-index: 5;
 }
 .nav-bar h1 a{
     color: white;
@@ -37,6 +38,7 @@ body {
 .owl-carousel .owl-item img {    
     height: 400px;
     object-fit: cover;
+    margin-top: 135.88px;
 }
 .container {
     margin: 0 auto;

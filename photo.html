@@ -30,10 +30,10 @@
                 </ul>    
             </nav>
         </div>
-        <img class="banner" src="img/banner.jpg">
+        <img class="banner" id="photo" src="img/banner.jpg">
         <div class="container">
             <h2>The Photo Gallery</h2>
-            <div id="PhtotoGallery" class="owl-theme owl-carousel">
+            <div id="phtoto-gallery" class="owl-theme owl-carousel">
                 <img src="img/1.jpg" alt="1" >
                 <img src="img/2.jpg" alt="2">
                 <img src="img/3.jpg" alt="3">
@@ -49,10 +49,11 @@
             </div>
         </div>
         <script src="js/plugins.js"></script>
-        <script src="js/owl.carousel.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/owl.carousel.js"></script>
         <script>
-            $('#PhtotoGallery').owlCarousel({
+            $('#phtoto-gallery').owlCarousel({
+                items:1,
                 loop:true,
                 dots: true,
                 nav:true,

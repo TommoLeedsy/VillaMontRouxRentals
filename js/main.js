@@ -8,4 +8,11 @@ $( document ).ready(function() {
     }
     e.preventDefault(); 
     });
+    //hide the all of the element with class msg_body
+    $(".expanded-text").hide();
+    //toggle the componenet with class msg_body
+    $(".toggle-expand").click(function()
+    {
+    $(this).next(".expanded-text").slideToggle(600);
+    });
 });

@@ -10,7 +10,7 @@ body {
     top: 0;
     z-index: 5;
 }
-.nav-bar h1 a{
+.nav-bar h1 a {
     color: white;
     text-decoration: none;
 }
@@ -49,13 +49,37 @@ body {
     width: 100%;
     height: 360px;
 }
-#photo{
+a {
+    display: block;
+}
+#photo {
     object-fit: cover;
 }
 #calendar {
     width: 100%;
     height: 397.5px;
 }
-.toggle-expand{
+.toggle-expand {
     cursor: pointer;
+}
+.boxes {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#left, #center, #right {
+    background-color: #24344b;
+    width: 32%;
+    padding-bottom: 32%;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+.boxes:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }

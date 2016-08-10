@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.nav-bar {
+header {
     width: 100%;
     background-color: #24344b;
     overflow: hidden;
@@ -10,31 +10,89 @@ body {
     top: 0;
     z-index: 5;
 }
-.nav-bar h1 a {
-    color: white;
-    text-decoration: none;
-}
-.nav-bar h1 {
+header h1 a {
     margin-left: 2.5%;
     font-size: 35px;
     color: white;
+    text-decoration: none;
 }
-.nav-bar nav ul {
+.desk-nav {
+    width: 100%;
+    background-color: #24344b;
+    overflow: hidden;
+}
+.desk-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.nav-bar nav li {
+.desk-nav li {
     float: right;
 }
-.nav-bar nav li a {
+.desk-nav li a {
     display: block;
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
+.mob-nav {
+    position: fixed;
+    width: 270px;
+    right: -270px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #24344b;
+    z-index: 600;
+    overflow: auto;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
+.mob-nav ul {
+    margin: 15px 0px 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+.mob-nav ul li {
+    margin: 0px;
+    display: block;
+    text-align: left;
+    padding: 5px 20px;
+}
+.mob-nav ul li a {
+    padding: 4px 0px 14px;
+    border-bottom: 1px solid rgba(130, 141, 161, 0.2);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    display: block;
+}
+.mob-show {
+    display: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 2.5%;
+    float: right;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#mask {
+    background-color: rgba(41, 47, 51, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: 5;
+    display: none;
+}
 .owl-carousel .owl-item img {    
     height: 360px;
     object-fit: cover;
@@ -45,12 +103,8 @@ body {
     width: 95%
 }
 .banner {
-    margin-top: 135px;
     width: 100%;
     height: 360px;
-}
-a {
-    display: block;
 }
 #photo {
     object-fit: cover;
@@ -82,4 +136,15 @@ a {
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+@media only screen and (max-width : 980px) {
+    .mob-show {
+        display: block;
+    }
+    .desk-nav ul {
+        display: none;
+    }
+}
+@media only screen and (max-width : 980px) {
+    
 }

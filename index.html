@@ -5,31 +5,34 @@
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/owl.theme.default.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,500,100,100italic,300,300italic,400italic,500italic,700,700italic,900italic' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div class="nav-bar">
-            <h1><a href="index.html">Villa Mont Roux Rentals</a></h1>
-            <nav class="container">
-                <ul>
-                    <li>
-                        <a href="booking.html">Booking and Contacting Us</a>
-                    </li>                    
-                    <li>
-                        <a href="travel.html">Getting Here</a>
-                    </li>
-                    <li>
-                        <a href="area.html">The Local Area</a>
-                    </li>
-                    <li>
-                        <a href="photo.html">The Photo Gallery</a>
-                    </li>
-                    <li>
-                        <a href="villa.html">The Villa</a>
-                    </li>
-                </ul>    
-            </nav>
+    <div id="mask"></div>
+        <div class="mob-nav">
+            <ul>
+                <li><a href="booking.html">Booking and Contacting Us</a></li>                    
+                <li><a href="travel.html">Getting Here</a></li>
+                <li><a href="area.html">The Local Area</a></li>
+                <li><a href="photo.html">The Photo Gallery</a></li>
+                <li><a href="villa.html">The Villa</a></li>
+            </ul>
         </div>
+        <header>
+            <h1><a href="index.html">Villa Mont Roux Rentals</a></h1>
+            <nav class="desk-nav">
+                <ul>
+                    <li><a href="booking.html">Booking and Contacting Us</a></li>                    
+                    <li><a href="travel.html">Getting Here</a></li>
+                    <li><a href="area.html">The Local Area</a></li>
+                    <li><a href="photo.html">The Photo Gallery</a></li>
+                    <li><a href="villa.html">The Villa</a></li>
+                </ul>
+                <span class="mob-show">Menu <i class="fa fa-bars 2x"></i></span>
+            </nav>
+        </header>
+        <div id="clearfix"></div>
         <div id="banner-gallery" class="owl-carousel owl-theme banner">
             <img src="img/1.jpg" alt="1" >
             <img src="img/2.jpg" alt="2">
@@ -54,7 +57,6 @@
                 <div id="right"></div>
             </div>
         </div>
-        <footer></footer>
         <script src="js/plugins.js"></script>
         <script src="js/owl.carousel.js"></script>
         <script src="js/main.js"></script>
@@ -65,7 +67,7 @@
                 dots: false,
                 autoplay:true,
                 autoplayTimeout:1000,
-                autoplayHoverPause:true,
+                autoplayHoverPause:false,
                 autoWidth: true,
                 responsive:{
                     0:{
